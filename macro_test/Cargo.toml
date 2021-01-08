@@ -8,6 +8,6 @@ edition = "2018"
 
 [dependencies]
 macro_test_derive = {path="./macro_test_derive"}
-
+cfg-if = "1.0"
 [features]
 test = ["macro_test_derive/test"]
